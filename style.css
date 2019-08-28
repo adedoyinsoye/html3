@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color:lightgrey;
+    padding: 20px;
+    text-align: left;
+    color: white;
+  }
+  /* Style the linkbar */
+  .links{
+      background-color: grey;
+      text-align: left;
+      padding: 10px 30px;
+  }
+  
+  /* two columns/boxes that floats next to each other */
+  .nav {
+    float: right;
+    width: 30%;
+    height: 500px;
+    background:lightgrey;
+    padding: 20px;
+  }
+  
+  /* Style the list inside the menu */
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: whitesmoke;
+    height: 500px;
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  /* style the linkbar */
+  #link{
+      background-color: grey;
+  }
+  /* Responsive layout */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
